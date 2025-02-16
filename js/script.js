@@ -75,4 +75,4 @@ function removeRepo(index) {
 input.addEventListener('input', debounce(async () => {
     const repos = await fetchRepos(input.value);
     showAuto(repos);
-},0));
+},300));
