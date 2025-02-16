@@ -1,0 +1,58 @@
+.inp{
+    display: flex;
+    justify-self: center;
+    margin-top: 200px;
+    width: 200px;
+    height: 61px;
+}
+.auto-list {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    background: white;
+    width: 200px;
+
+}
+.auto-list-item {
+
+
+
+    padding: 10px;
+    cursor: pointer;
+}
+.auto-list-item:hover {
+    background-color: #f0f0f0;
+}
+.rep-list {
+margin-top: 100px;
+}
+.repo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.remove-btn {
+    cursor: pointer;
+    fill: red;
+    display: flex;
+    justify-self: flex-end;
+
+}
+
+.repo-details {
+    display: flex;
+    flex-direction: column;
+}
+.repo-name {
+    font-weight: bold;
+}
+
+.repo-owner, .repo-stars {
+    margin-top: 5px;
+}
